@@ -1,0 +1,8 @@
+name: "Doom: Hell & Fire"
+version: "0.0"
+author: "Reuged"
+description: "-"
+id: "Doom HellnFire"
+reservedSpace: 6
+master: xcom1
+isMaster: true

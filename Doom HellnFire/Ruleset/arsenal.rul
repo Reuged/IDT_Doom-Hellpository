@@ -1,0 +1,423 @@
+items:
+  - type: STR_UACPISTOL
+    size: 0.1
+    costSell: 300
+    weight: 3
+    bigSprite:    101
+    floorSprite:  102
+    handSprite:   201
+    bulletSprite: 1
+    fireSound:    4
+    reloadSound:  17
+    compatibleAmmo:
+      - STR_UACPISTOL_AMMO
+    accuracySnap:   55
+    accuracyAimed:  73
+    accuracyCloseQuarters: 147
+    tuAimed:  38
+    tuSnap:   21
+    tuLoad:   23
+    costThrow:
+      energy: 8
+    battleType: 1
+    aimRange:  16
+    snapRange: 16
+    dropoff:   4
+    kneelBonus: 133
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACPISTOL_AMMO
+    size: 0.02
+    costSell: 50
+    weight: 2
+    bigSprite: 102
+    floorSprite: 103
+    hitSound: 22
+    hitAnimation: 26
+    power: 25
+    damageType: 1
+    clipSize: 18
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 30
+    attraction: 15
+#----------------------------------------------------------------------------------------------------------------------------------------------
+  - type: STR_UACRIFLE
+    size: 0.2
+    costSell: 300
+    weight: 16
+    bigSprite:    103
+    floorSprite:  104
+    handSprite:   202
+    bulletSprite: 1
+    fireSound:    4
+    reloadSound:  17
+    compatibleAmmo:
+      - STR_UACRIFLE_AMMO
+    accuracyAuto:   47
+    accuracySnap:   65
+    accuracyAimed:  83
+    accuracyCloseQuarters: 130
+    tuAimed:  48
+    tuSnap:   21
+    tuAuto:   35
+    tuLoad:   23
+    costThrow:
+      energy: 8
+    battleType: 1
+    aimRange:  30
+    snapRange: 30
+    autoRange: 30
+    dropoff:   3
+    kneelBonus: 156
+    autoShots: 4
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACRIFLE_AMMO
+    size: 0.2
+    costSell: 50
+    weight: 3
+    bigSprite: 104
+    floorSprite: 105
+    hitSound: 22
+    hitAnimation: 26
+    power: 35
+    damageType: 1
+    clipSize: 30
+    costThrow:
+      energy: 5
+    battleType: 2
+    armor: 30
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACCHAIN
+    size: 0.3
+    costSell: 300
+    weight: 26
+    bigSprite:    105
+    floorSprite:  106
+    handSprite:   203
+    bulletSprite: 1
+    fireSound:    4
+    reloadSound:  17
+    compatibleAmmo:
+      - STR_UACCHAIN_AMMO
+    accuracySnap:   55
+    accuracyAuto:   37
+    accuracyCloseQuarters: 196
+    tuSnap:   31
+    tuAuto:   37
+    tuLoad:   33
+    costThrow:
+      energy: 8
+    battleType: 1
+    snapRange: 25
+    autoRange: 25
+    dropoff:   3
+    kneelBonus: 158
+    autoShots: 10
+    twoHanded: true
+    blockBothHands: true
+    bulletSpeed: 35
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACCHAIN_AMMO
+    size: 0.06
+    costSell: 150
+    weight: 9
+    bigSprite: 106
+    floorSprite: 107
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageType: 1
+    clipSize: 100
+    costThrow:
+      energy: 10
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 30
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACRL
+    size: 0.7
+    costSell: 300
+    weight: 20
+    bigSprite:    107
+    floorSprite:  106
+    handSprite:   204
+    bulletSprite: 43
+    fireSound:    52
+    reloadSound:  17
+    compatibleAmmo:
+      - STR_UACRL_AMMO
+    accuracySnap:   65
+    tuSnap:   43
+    tuLoad:   33
+    costThrow:
+      energy: 18
+    battleType: 1
+    snapRange: 37
+    dropoff:   3
+    kneelBonus: 158
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACRL_AMMO
+    size: 0.4
+    weight: 5
+    bigSprite: 108
+    floorSprite: 109
+    hitSound: 12
+    hitAnimation: 8
+    power: 60
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 3
+    clipSize: 5
+    battleType: 2
+    invWidth: 2
+    invHeight: 2
+    armor: 20
+    blastRadius: 4
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_CHAINSAW
+    size: 0.2
+   #costBuy: 1200
+    costSell: 700
+    weight: 9
+    bigSprite: 109
+    floorSprite: 110
+    handSprite: 205
+    bulletSprite: 45
+    fireSound: 61
+    hitSound: 0
+    hitAnimation: -1
+    power: 35
+    damageAlter:
+      ToMana: 1.0
+    damageType: 7
+    accuracyAuto: 110
+    accuracyMultiplier:
+      flatHundred: 0.65
+      melee: 0.35
+    confAuto:
+      name: STR_CHAINSAW
+      shots: 6
+    costAuto:
+      time: 16
+      energy: 6
+    costThrow:
+      energy: 18
+      time: 40
+    sprayWaypoints: 2
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 2
+    powerRangeThreshold: 2
+    powerRangeReduction: 99
+    bulletSpeed: 50
+    kneelBonus: 106
+    attraction: 6
+   #listOrder: 12265
+#----------------------------------------------------------------------------------------------------------------------------------------------
+extraSounds:
+#--
+  - type: BATTLE.CAT
+    files:
+      61:  Resources/Sounds/ChainsawLoop.wav
+
+extraSprites:
+#--
+  - type: BIGOBS.PCK
+    files:
+      101: Resources/Sprites/UAC_pistol.png
+      102: Resources/Sprites/UAC_PistolAmmo.png
+      103: Resources/Sprites/UAC_Rifle.png
+      104: Resources/Sprites/UAC_RifleAmmo.png
+      105: Resources/Sprites/UAC_Chain.png
+      106: Resources/Sprites/UAC_Chain_Ammo.png
+      107: Resources/Sprites/UAC_RL.png
+      108: Resources/Sprites/UAC_RLAmmo.png
+      109: Resources/Sprites/Chainsaw.gif
+     
+  - type: FLOOROB.PCK
+    files:
+      102: Resources/Sprites/FloorUacpistol.png
+      103: Resources/Sprites/FloorUACpistolAmmo.png
+      104: Resources/Sprites/FloorUACrifle.png
+      105: Resources/Sprites/FloorUACrifleAmmo.png
+      106: Resources/Sprites/FloorUACchain.png
+      107: Resources/Sprites/FloorUACchainAmmo.png
+      108: Resources/Sprites/FloorUACrl.png
+      109: Resources/Sprites/FloorUACrlAmmo.png
+      110: Resources/Sprites/FloorChainsaw.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      201: Resources/Sprites/Uacpistol.png
+      202: Resources/Sprites/Uacrifle.png
+      203: Resources/Sprites/Uacchain.png
+      204: Resources/Sprites/Uacrl.png
+      205: Resources/Sprites/Chainsaw.png
+#----------------------------------------------------
+  - type: Projectiles
+    width: 105
+    height: 135
+    subX: 3
+    subY: 3
+    files:
+      0: Resources/Bullets/Projectiles_DIO.png
+#----------------------------------------------------
+  - type: X1.PCK
+    width: 1024
+    height: 3072
+    subX: 128
+    subY: 64
+    files:
+      0: Resources/Bullets/X1_DIO.png
+#----------------------------------------------------------------------------------------------------------------------------------------------
+ufopaedia:
+#--
+  - id: STR_UACPISTOL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text:    STR_UACPISTOL_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACPISTOL_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------
+  - id: STR_UACRIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text:    STR_UACRIFLE_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACRIFLE_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#---------------------------------------------------
+  - id: STR_UACCHAIN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text:    STR_UACCHAIN_UFOPEDIA
+#---------------------------------------------------
+  - id: STR_UACCHAIN_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------
+  - id: STR_UACRL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text:    STR_UACRL_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACRL_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------------------------------------------------------------------------------------------------
+
+manufacture:
+#----------------------------------------------------
+  - name: STR_UACPISTOL
+    category: Weapons
+    cost: 0
+    space: 4
+    time: 10
+#----------------------------------------------------
+  - name: STR_UACPISTOL_AMMO
+    category: Ammunition
+    cost: 0
+    space: 4
+    time: 10
+#----------------------------------------------------
+  - name: STR_UACRIFLE
+    category: Weapons
+    cost: 0
+    space: 4
+    time: 10
+#----------------------------------------------------
+  - name: STR_UACRIFLE_AMMO
+    category: Ammunition
+    cost: 0
+    space: 4
+    time: 10
+#----------------------------------------------------
+  - name: STR_UACCHAIN
+    category: Weapons
+    cost: 0
+    space: 4
+    time: 10
+#----------------------------------------------------
+  - name: STR_UACCHAIN_AMMO
+    category: Ammunition
+    cost: 0
+    space: 4
+    time: 10
+#----------------------------------------------------
+  - name: STR_UACRL
+    category: Weapons
+    cost: 0
+    space: 4
+    time: 10
+#----------------------------------------------------
+  - name: STR_UACRL_AMMO
+    category: Ammunition
+    cost: 0
+    space: 4
+    time: 10
+#----------------------------------------------------
+  - name: STR_CHAINSAW
+    category: Weapons
+    cost: 0
+    space: 4
+    time: 10
+#----------------------------------------------------------------------------------------------------------------------------------------------
+#research:
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_UACPISTOL:      UAC Pistol
+      STR_UACPISTOL_AMMO: UAC Pistol Ammo
+      STR_UACRIFLE:       UAC Assault Rifle
+      STR_UACRIFLE_AMMO:  UAC Rifle Ammo
+      STR_UACCHAIN:       UAC Chain Gun
+      STR_UACCHAIN_AMMO:  UAC Chain Gun Ammo
+      STR_UACRL:          UAC Rocket Launcher
+      STR_UACRL_AMMO:     UAC Rocket Launcher Ammo
+      STR_CHAINSAW:       Chain Saw
+#----------------------------------------------------------------------------------------------------------------------------------------------
+      STR_UACPISTOL_UFOPEDIA:   "UAC 9x19mm pistol, the weapon of choice by UAC Marine rookies"
+#----------------------------------------------------
+      STR_UACRIFLE_UFOPEDIA:    "UAC 5.56x45mm NATO Assault Rifle, ideal for mid range engagament."
+#----------------------------------------------------
+      STR_UACCHAIN_UFOPEDIA:    "UAC Portable Gatling Gun Prototype, it's very efective at mid-to-close range engagament."
+#----------------------------------------------------
+      STR_UACRL_UFOPEDIA:       "UAC Protable Rocket Launcher, capable to accurally launch HEAT Rockets at long range distances"
+#----------------------------------------------------	  
+      STR_CHAINSAW_UFOPEDIA:     "A common lumberjack tool reporpuse to personaly R'&'T the alien ground forces."
+#----------------------------------------------------------------------------------------------------------------------------------------------
